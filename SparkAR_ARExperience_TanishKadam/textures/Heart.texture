@@ -1,0 +1,42 @@
+{
+  "modelName": "texture",
+  "name": "Heart",
+  "identifier": "texture:115777-b189b5aa-fe99-4c9c-b531-447d43d59494",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "fb4203045d1fcec755048232a22dd1c2",
+  "assetLocator": "textures/Heart.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:116229-b189b5aa-fe99-4c9c-b531-447d43d59494",
+    "textureExportConfig:116359-b189b5aa-fe99-4c9c-b531-447d43d59494",
+    "textureExportConfig:116495-b189b5aa-fe99-4c9c-b531-447d43d59494"
+  ],
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 500,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 500,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "fb4203045d1fcec755048232a22dd1c2",
+      "colorCount": 57,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.4624987146408386,
+      "pixelsHigh": 500,
+      "pixelsWide": 500
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "objects": [],
+  "usingPatchesV2": true,
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 187
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "fromPatch": "template_patch_model:122154-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122329-f1504e9e-8a35-4fb2-829f-90b43ca2d4a3",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:121626-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "8083066788988105502"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:121500-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "11447219488182779473",
+        "identifier": "patch_connection_model:122572-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:121938-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:121542-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "13163607045278596676",
+        "identifier": "patch_connection_model:122576-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:122256-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "3"
+      },
+      {
+        "fromPatch": "template_patch_model:121794-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122578-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:121584-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "5408534475863657827"
+      },
+      {
+        "fromPatch": "template_patch_model:122198-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122594-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:121752-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "16071394387003113028"
+      },
+      {
+        "fromPatch": "template_patch_model:121938-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122598-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:122096-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:121938-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122600-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:122038-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:121938-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122602-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:122198-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:122096-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122604-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:122154-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:122038-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122606-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:122328-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:122198-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122608-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:122372-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:121838-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122610-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:121794-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:122198-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122612-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:122256-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:122256-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122614-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:121838-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:122372-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:122616-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:122416-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "10927958406120165905"
+      },
+      {
+        "fromPatch": "template_patch_model:122328-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:123483-f1504e9e-8a35-4fb2-829f-90b43ca2d4a3",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:121668-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "15533403541194241440"
+      },
+      {
+        "fromPatch": "template_patch_model:122372-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:124637-f1504e9e-8a35-4fb2-829f-90b43ca2d4a3",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:121710-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "toPort": "5687063043864619123"
+      }
+    ],
+    "patches": [
+      {
+        "groupDescription": "",
+        "groupName": "Score and Live Counter",
+        "identifier": "patch_group_model:121484-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "inputPorts": [
+          "patch_input_port_model:122458-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "patch_input_port_model:122472-42567891-26ff-4e0c-94fb-96b2b7bc5813"
+        ],
+        "modelName": "patch_group_model",
+        "name": "Score and Live Counter",
+        "outputPorts": [
+          "patch_output_port_model:122486-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "patch_output_port_model:122500-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "patch_output_port_model:122514-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "patch_output_port_model:122528-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "patch_output_port_model:122542-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "patch_output_port_model:122556-42567891-26ff-4e0c-94fb-96b2b7bc5813"
+        ],
+        "position": [
+          2828,
+          548
+        ],
+        "subpatches": [
+          "port_forwarding_patch_model:121500-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "port_forwarding_patch_model:121542-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "port_forwarding_patch_model:121584-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "port_forwarding_patch_model:121626-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "port_forwarding_patch_model:121668-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "port_forwarding_patch_model:121710-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "port_forwarding_patch_model:121752-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "port_forwarding_patch_model:122416-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:121794-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:121838-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:121938-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:122038-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:122096-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:122154-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:122198-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:122256-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:122328-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+          "template_patch_model:122372-42567891-26ff-4e0c-94fb-96b2b7bc5813"
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:121500-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Missed",
+        "position": [
+          -788,
+          -2
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:121542-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Catched",
+        "position": [
+          -692,
+          -174
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:121584-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Score",
+        "position": [
+          688,
+          -266
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:121626-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Live 1",
+        "position": [
+          476,
+          68
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:121668-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Live 2",
+        "position": [
+          428,
+          188
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:121710-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Live 3",
+        "position": [
+          308,
+          404
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:121752-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Game Over",
+        "position": [
+          524,
+          -4
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:122416-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Visibility Objects",
+        "position": [
+          380,
+          308
+        ],
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:121794-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "To String",
+        "position": [
+          418,
+          -266
+        ],
+        "templateId": "builtin.toStringComponent",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:121838-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "position": [
+          -38,
+          -410
+        ],
+        "templateId": "builtin.counter",
+        "values": [
+          {
+            "port": "5",
+            "value": {
+              "t": "int",
+              "v": 999
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:121938-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "position": [
+          -518,
+          -2
+        ],
+        "templateId": "builtin.counter",
+        "values": [
+          {
+            "port": "5",
+            "value": {
+              "t": "int",
+              "v": 999
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:122038-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "Greater Than",
+        "position": [
+          -206,
+          190
+        ],
+        "templateId": "builtin.binaryScalarGtOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 1
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:122096-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "Greater Than",
+        "position": [
+          -206,
+          94
+        ],
+        "templateId": "builtin.binaryScalarGtOperator",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:122154-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "position": [
+          34,
+          94
+        ],
+        "templateId": "builtin.negation",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:122198-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "Greater Than",
+        "position": [
+          -206,
+          286
+        ],
+        "templateId": "builtin.binaryScalarGtOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:122256-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "If Then Else",
+        "position": [
+          -422,
+          -266
+        ],
+        "templateId": "builtin.IfThenElseOperator",
+        "values": [],
+        "variantInfo": "pulse"
+      },
+      {
+        "identifier": "template_patch_model:122328-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "position": [
+          34,
+          214
+        ],
+        "templateId": "builtin.negation",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:122372-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "position": [
+          20,
+          356
+        ],
+        "templateId": "builtin.negation",
+        "values": []
+      }
+    ],
+    "ports": [
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": false
+        },
+        "forwardingPatch": "port_forwarding_patch_model:121542-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "identifier": "patch_input_port_model:122458-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_input_port_model",
+        "portDescription": "The output when the condition signal is false.",
+        "portName": "Catched",
+        "portTag": "13163607045278596676",
+        "portType": "pulse",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": false
+        },
+        "forwardingPatch": "port_forwarding_patch_model:121500-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "identifier": "patch_input_port_model:122472-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_input_port_model",
+        "portDescription": "Increase the counter by 1.",
+        "portName": "Missed",
+        "portTag": "11447219488182779473",
+        "portType": "pulse",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "string",
+          "v": ""
+        },
+        "forwardingPatch": "port_forwarding_patch_model:121584-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "identifier": "patch_output_port_model:122486-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_output_port_model",
+        "portDescription": "The input value converted into a text string.",
+        "portName": "Score",
+        "portTag": "5408534475863657827",
+        "portType": "text",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": true
+        },
+        "forwardingPatch": "port_forwarding_patch_model:121626-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "identifier": "patch_output_port_model:122500-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_output_port_model",
+        "portDescription": "The reversed signal.",
+        "portName": "Live 1",
+        "portTag": "8083066788988105502",
+        "portType": "bool",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": true
+        },
+        "forwardingPatch": "port_forwarding_patch_model:121668-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "identifier": "patch_output_port_model:122514-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_output_port_model",
+        "portDescription": "The reversed signal.",
+        "portName": "Live 2",
+        "portTag": "15533403541194241440",
+        "portType": "bool",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": true
+        },
+        "forwardingPatch": "port_forwarding_patch_model:121710-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "identifier": "patch_output_port_model:122528-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_output_port_model",
+        "portDescription": "The reversed signal.",
+        "portName": "Live 3",
+        "portTag": "5687063043864619123",
+        "portType": "bool",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": false
+        },
+        "forwardingPatch": "port_forwarding_patch_model:121752-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "identifier": "patch_output_port_model:122542-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_output_port_model",
+        "portDescription": "A signal that's turned on when the first input is greater than the second input.",
+        "portName": "Game Over",
+        "portTag": "16071394387003113028",
+        "portType": "bool",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": true
+        },
+        "forwardingPatch": "port_forwarding_patch_model:122416-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "identifier": "patch_output_port_model:122556-42567891-26ff-4e0c-94fb-96b2b7bc5813",
+        "modelName": "patch_output_port_model",
+        "portDescription": "The reversed signal.",
+        "portName": "Visibility Objects",
+        "portTag": "10927958406120165905",
+        "portType": "bool",
+        "widgetStyle": "default"
+      }
+    ]
+  }
+}
