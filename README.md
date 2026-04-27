@@ -8,10 +8,10 @@ The game keeps track of the player's **score** and provides **three lives** befo
 
 ## Features
 
-- 🧠 **Face tracking:** The basket follows the user's chin movement in real time.  
-- 🍏 **Random apple spawns:** Apples fall from different positions to make each game unique.  
-- 🪣 **Collision detection:** When the apple hits the basket, the score increases.  
-- ❤️ **Lives system:** Players get three lives before the game ends.  
+-  **Face tracking:** The basket follows the user's chin movement in real time.  
+-  **Random apple spawns:** Apples fall from different positions to make each game unique.  
+-  **Collision detection:** When the apple hits the basket, the score increases.  
+-  **Lives system:** Players get three lives before the game ends.  
 
 ## How It Works
 
